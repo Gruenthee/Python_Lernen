@@ -12,7 +12,7 @@ def test_trained_model():
     import os
 
     # load trained model
-    file_to_open = open(os.path.join("data", "models", "baummethoden_lr.pickle"), "rb")
+    file_to_open = open(os.path.join("data", "models", "Python_lernen.pickle"), "rb")
     trained_model = pickle.load(file_to_open)
     file_to_open.close()
 
