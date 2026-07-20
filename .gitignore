@@ -5,3 +5,4 @@
 .vscode/*.log
 data/models/*
 __pycache__/*
+__.pytest_cache__/*
